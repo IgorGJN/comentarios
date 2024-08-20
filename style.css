@@ -86,3 +86,21 @@ footer {
   width: 3rem;
   height: 3rem;
 }
+
+@media (min-width: 760px) {
+  .botao{
+    width: 23%;
+  }
+}
+
+@media (min-width: 1100px) {
+  .botao{
+    width: 18%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .botao{
+    width: 15%;
+  }
+}
