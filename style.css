@@ -1,16 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
-    color: #333;
 }
 
 header {
-    background-color: #63AAB0;
+    background-color: #4DA8DA;
     padding: 20px;
     text-align: center;
     color: white;
+    font-size: 1.5rem;
+}
+
+h1{
+  font-weight: 900;
 }
 
 main {
@@ -25,6 +27,7 @@ main {
   margin-bottom: 6rem;
 }
 .botao{
+  font-weight: 700;
   padding: 1rem;
   border: solid 2px black;
   width: 30%;
@@ -36,6 +39,7 @@ main {
 
 .botao-incluir{
   width: 40%;
+  background-color: #FF7F50;
 }
 
 .um{
@@ -59,11 +63,26 @@ main {
 }
 
 footer {
-    background-color: #78824D;
+    background-color: #58A55C;
     text-align: center;
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
     color: white;
+}
+
+.limpar {
+  background-color: #FFDD57;
+/*   position: fixed;
+  bottom: 1rem;
+  right: 1rem; */
+  color: #FF4F5A;
+  font-size: 2rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 3rem;
+  width: 3rem;
+  height: 3rem;
 }

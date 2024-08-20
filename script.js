@@ -159,6 +159,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    window.adicionarBotao = adicionarBotao;
+    
     // Função para organizar os botões em ordem alfabética
     function organizarBotoes() {
         const container = document.getElementById('button-container');
@@ -177,7 +179,13 @@ document.addEventListener('DOMContentLoaded', function() {
         recuperarClasses();
     }
 
-    // Executa as funções ao carregar a página
+// Executa as funções ao carregar a página
     adicionarBotoesIniciais();
     organizarBotoes(); // Organiza e, em seguida, recupera as classes
 });
+
+function limparClasses() {
+    localStorage.removeItem('classesBotoes');
+    location.reload();
+
+}
