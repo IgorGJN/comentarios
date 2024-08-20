@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    color: #333;
+}
+
+header {
+    background-color: #63AAB0;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+#button-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 6rem;
+}
+.botao{
+  padding: 1rem;
+  border: solid 2px black;
+  width: 30%;
+  background-color: lightgray;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px dimgray, 
+              0 6px 20px dimgray; /* Sombra suave em toda a volta */
+}
+
+.botao-incluir{
+  width: 40%;
+}
+
+.um{
+  background-color: #4DA8DA; /* Azul */
+}
+
+.dois{
+  background-color: #58A55C; /* Verde */
+}
+
+.tres{
+  background-color: #FFDD57; /* Amarelo */
+}
+
+.quatro{
+  background-color: #FF7F50; /* Coral */
+}
+
+.cinco{
+  background-color: #FF4F5A; /* Vermelho */
+}
+
+footer {
+    background-color: #78824D;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
