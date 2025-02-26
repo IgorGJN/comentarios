@@ -19,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function() {
 'Juliana Ferraz', 
 'Edinaldo',
 'Hanna', 
-'Laurinda', 
 'Hêlanio', 
 'Igor Gabriel', 
 'Genicleide',
