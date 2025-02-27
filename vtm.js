@@ -30,6 +30,15 @@ document.addEventListener('DOMContentLoaded', function() {
 'Stener',
 'Tatiana', 
 'Uiliam',
+'Aryadna',
+'Jailce',
+'Júnio',
+'Laurinda',
+'Alexandre',
+'Débora',
+'Eliene',
+'Gustavo',
+'Luana'
 
             // Adicione mais nomes conforme necessário...
         ];
@@ -49,13 +58,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const elemento = document.getElementById(id);
         const classes = ["um", "dois", "tres", "quatro", "cinco"];
         let classeAtual = classes.find(cls => elemento.classList.contains(cls));
-
         if (classeAtual) {
             let indiceAtual = classes.indexOf(classeAtual);
             if (indiceAtual < classes.length - 1) {
+                console.log(indiceAtual < classes.length - 1)
                 let proximaClasse = classes[indiceAtual + 1];
                 elemento.classList.remove(classeAtual);
                 elemento.classList.add(proximaClasse);
+            } else {
+                elemento.classList.remove(classeAtual);
             }
         } else {
             elemento.classList.add(classes[0]);

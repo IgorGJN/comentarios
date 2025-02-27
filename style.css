@@ -87,6 +87,12 @@ footer {
   height: 3rem;
 }
 
+.vtm {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
 @media (min-width: 760px) {
   .botao{
     width: 23%;
