@@ -3,42 +3,23 @@ document.addEventListener('DOMContentLoaded', function() {
     function adicionarBotoesIniciais() {
         const container = document.getElementById('button-container');
         const botoesIniciais = [
-'Fabiano Côrtes', 
-'Luciano Rezende', 
-'Breno',
-'Davi', 
-'Brenda', 
-'Amanda',
-'Aureni',
-'Daniela', 
-'Cida',
-'Ivanete', 
-'Ereni', 
-'Edineuza', 
-'Edileia',
-'Juliana Ferraz', 
-'Edinaldo',
-'Hanna', 
-'Hêlanio', 
-'Igor Gabriel', 
-'Genicleide',
-'Marcio',
-'Julia',
-'Poliana', 
-'Saulo', 
-'Juliana Santos', 
-'Stener',
-'Tatiana', 
-'Uiliam',
-'Aryadna',
-'Jailce',
-'Júnio',
-'Laurinda',
-'Alexandre',
-'Débora',
-'Eliene',
-'Gustavo',
-'Luana'
+'Gisleno Pinheiro (SG)',
+            'Igor Gabriel (SG)',
+'Morlânia Pinheiro',		'Tatiana',	
+'José Bezerra',		'Adelmo Martins',
+'Suenir Nascimento',		'Evirlane Martins',	
+'Lara Silva',		'Rebeca Martins',	
+'Gabriel Albuquerque', 		'Sueli Barbosa',	
+'Miraneide Augusto',		'Simon Marinho',	
+'Mosirene Lima',		'Jardênia Peixoto',	
+'Francisco Sales',		'Antônia Pereira',	
+'Célia Nogueira',		'Alexsander Freitas',	
+'João Carneiro',		'Sineide Marinho',	
+'Francilene Carneiro',		'Marizete Pereira',	
+'Olimpio Ferreia			
+'Lúcia Silva'			
+            
+     
 
             // Adicione mais nomes conforme necessário...
         ];
