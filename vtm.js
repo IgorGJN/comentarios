@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 'Célia Nogueira',		'Alexsander Freitas',	
 'João Carneiro',		'Sineide Marinho',	
 'Francilene Carneiro',		'Marizete Pereira',	
-'Olimpio Ferreia			
+'Olimpio Ferreia',			
 'Lúcia Silva'			
             
      
