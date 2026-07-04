@@ -17,7 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
 'João Carneiro',		'Sineide Marinho',	
 'Francilene Carneiro',		'Marizete Pereira',	
 'Olimpio Ferreia',			
-'Lúcia Silva'			, 'Tainara'
+'Lúcia Silva', 
+'Tainara',
             
      
 
